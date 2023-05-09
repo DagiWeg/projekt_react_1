@@ -1,0 +1,59 @@
+.landing-page .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.landing-page p:nth-of-type(odd) {
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+}
+.landing-page p:nth-of-type(even) {
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+}
+.sentence {
+  width: 58%;
+}
+.cursor-disabled {
+  cursor: not-allowed;
+}
+.landing-page p {
+  margin-bottom: 30px;
+}
+.landing-page {
+  background-image: url("../../assets/road.JPG");
+  max-width: 100vw;
+  height: calc(100vh - 50px);
+  background-size: cover;
+}
+.landing-page-shadow {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  padding: 20px;
+}
+.button {
+  width: 130px;
+  height: 40px;
+  padding: 10px 20px;
+  background: none;
+  color: white;
+  border: 3px solid white;
+  font-size: 16px;
+  text-align: center;
+  transition-duration: 1s;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.offer-title {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}

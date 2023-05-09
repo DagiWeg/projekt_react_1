@@ -1,0 +1,77 @@
+.box .boxes {
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  width: 25%;
+  aspect-ratio: 1/1;
+  font-size: 25px;
+  color: white;
+  margin: 40px 20px;
+  transition-duration: 0.5s;
+}
+
+.box .boxes:hover {
+  transform: scale(1.05);
+}
+
+#box1 {
+  background-image: url(../../assets/Joshua.jpg);
+}
+
+#box2 {
+  background-image: url("../../assets/Hollywood.JPG");
+}
+
+#box3 {
+  background-image: url("../../assets/GC.JPG");
+}
+
+#box4 {
+  background-image: url("../../assets/LV.JPG");
+}
+
+#box5 {
+  background-image: url("../../assets/MV.JPG");
+}
+
+#box6 {
+  background-image: url("../../assets/Route66.JPG");
+}
+
+.box .offer-box-shadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.box .first-box {
+  position: relative;
+}
+
+.box .dot {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  border-radius: 50%;
+}
+.box-container {
+  width: 100%;
+  background-color: rgb(143, 189, 196);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.offer-page {
+  background-color: rgb(143, 189, 196);
+}

@@ -1,0 +1,67 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.box.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.specialists {
+  background-color: rgb(233, 200, 151);
+  padding: 20px 0px;
+}
+.circle {
+  border-radius: 50%;
+}
+.circle1 {
+  width: 200px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-image: url("../../assets/woman.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+.circle2 {
+  width: 200px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-image: url("../../assets/man.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+}
+.specialists-title {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(91, 87, 87);
+  margin-bottom: 15px;
+}
+.marek {
+  text-align: right;
+}
+.specialist {
+  font-size: 18px;
+}
+.wrapper {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+}
+.wrapper-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}

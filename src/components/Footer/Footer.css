@@ -1,0 +1,22 @@
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  font-size: 18px;
+  display: flex;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-brands {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.fa-instagram {
+  color: rgb(119, 38, 135);
+}
+.fa-facebook-square {
+  color: rgb(66, 66, 206);
+}
