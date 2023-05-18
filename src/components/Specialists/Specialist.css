@@ -3,15 +3,6 @@
   flex-direction: column;
   padding: 20px;
 }
-
-.box.container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
 .specialists {
   background-color: rgb(233, 200, 151);
   padding: 20px 0px;

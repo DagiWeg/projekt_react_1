@@ -4,11 +4,3 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-/* .cursor-disabled {
-  cursor: not-allowed;
-} */

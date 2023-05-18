@@ -1,4 +1,4 @@
-.box .boxes {
+.boxes {
   display: flex;
   background-position: center;
   background-size: cover;
@@ -9,8 +9,7 @@
   margin: 40px 20px;
   transition-duration: 0.5s;
 }
-
-.box .boxes:hover {
+.boxes:hover {
   transform: scale(1.05);
 }
 
@@ -38,7 +37,7 @@
   background-image: url("../../assets/Route66.JPG");
 }
 
-.box .offer-box-shadow {
+.offer-box-shadow {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,11 +48,11 @@
   flex-direction: column;
 }
 
-.box .first-box {
+.first-box {
   position: relative;
 }
 
-.box .dot {
+.dot {
   width: 15px;
   height: 15px;
   background-color: red;
@@ -61,17 +60,4 @@
   top: -7px;
   right: -7px;
   border-radius: 50%;
-}
-.box-container {
-  width: 100%;
-  background-color: rgb(143, 189, 196);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-.offer-page {
-  background-color: rgb(143, 189, 196);
 }
